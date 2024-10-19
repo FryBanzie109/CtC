@@ -24,5 +24,5 @@ function addMessageToChat(message, type) {
     messageElement.classList.add("message", type);
     messageElement.textContent = message;
     chatBox.appendChild(messageElement);
-    chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to the bottom
+    chatBox.scrollTop = chatBox.scrollHeight;
 }
