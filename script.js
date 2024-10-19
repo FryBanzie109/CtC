@@ -10,8 +10,7 @@ function sendMessage() {
     const message = input.value.trim();
     if (message !== "") {
         addMessageToChat(message, "sent");
-        input.value = ""; // Clear input
-        // Simulate receiving a response
+        input.value = ""; 
         setTimeout(() => {
             addMessageToChat("nothing!", "received");
         }, 1000);
